@@ -26,8 +26,18 @@ public class MainActivity extends AppCompatActivity {
 
         // Output the result
         helloWorld.setTextSize(30);
-        helloWorld.setTextColor(Color.RED);
+        helloWorld.setTextColor(Color.BLUE);
         helloWorld.setText("Hello World !\n");
         helloWorld.append("Your mark is: " + mark);
+
+        // If-else statement
+        if (mark < 50) {
+            helloWorld.setTextColor(Color.RED);
+            helloWorld.append("\nYou Lose !!!");
+            return;
+        }
+        helloWorld.setTextColor(Color.GREEN);
+        helloWorld.append("\nYou Win !!!");
+
     }
 }
