@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Get a reference to the GUI
         TextView helloWorld = (TextView) findViewById(R.id.helloWorldText);
+        // R: Resources
 
         // Generate a random number from 0 - 100
         int mark = 0;

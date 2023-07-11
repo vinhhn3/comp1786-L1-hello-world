@@ -31,8 +31,8 @@ To create the layout, start modify code in `activity_main.xml`
     android:layout_height="match_parent" tools:context=".MainActivity">
 
     <TextView android:id="@+id/helloWorldText" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content" android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp" android:text="Hello World!"
         app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
